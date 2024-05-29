@@ -86,16 +86,14 @@ section img {
 }
 
 section img#nuage {
-
     mix-blend-mode: hard-light;
     /* définit la façon dont le contenu d'un élément doit se mélanger avec le contenu de l'élément parent et avec son arrière-plan. */
     width: 25%;
     height: 50%;
     left: 15%;
-
 }
 
-section img#foret {
+section img#temple {
     z-index: 10;
 }
 
