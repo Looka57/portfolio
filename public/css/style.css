@@ -9,8 +9,8 @@
 
 body {
     min-height: 100vh;
-    /* background: rgb(255, 138, 147);
-    background: linear-gradient(180deg, rgba(255, 138, 147, 1) 0%, rgba(255, 255, 155, 1) 18%); */
+    background: rgb(88,150,175);
+    background: linear-gradient(180deg, rgba(88,150,175,1) 31%, rgba(137,196,212,1) 45%);
     overflow-x: hidden;
 
 
@@ -62,3 +62,41 @@ header ul li a.active {
 }
 
 /* BARNAV FIN */
+
+/* PARRALAX DEBUT */
+.paralax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+section img#nuage {
+
+    mix-blend-mode: hard-light;
+    /* définit la façon dont le contenu d'un élément doit se mélanger avec le contenu de l'élément parent et avec son arrière-plan. */
+    width: 25%;
+    height: 50%;
+    left: 15%;
+
+}
+
+section img#foret {
+    z-index: 10;
+}
+
+/* PARRALAX FIN */
