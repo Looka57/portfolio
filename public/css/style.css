@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    /* background: rgb(255, 138, 147);
+    background: linear-gradient(180deg, rgba(255, 138, 147, 1) 0%, rgba(255, 255, 155, 1) 18%); */
+    overflow-x: hidden;
+
+
+}
+
+/* BARNAV DEBUT */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .logo {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 15px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background-color: azure;
+    color: #131416;
+    border-radius: 20px;
+}
+
+/* BARNAV FIN */
