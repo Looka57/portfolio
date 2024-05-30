@@ -99,24 +99,27 @@ section img#temple {
 
 /* PARRALAX FIN */
 
-/* TEXTE TITRE */
+/* TEXTE TITRE ANIMATION DEBUT */
 
-.typewriter_container{
+.typewriter_container {
     position: relative;
     z-index: 2;
-    left: 12%;
+    left: 8%;
     bottom: 10%;
 }
+
 .typewriter p {
-    font-family: IBM Plex Mono, monospace;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
     font-weight: lighter;
     font-size: 85px;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
     animation: typing 1.5s steps(9);
-    color: #dadada;
+    color: #ffffff;
     text-shadow: 3px 3px 1px #131416;
+
 }
 
 .typewriter {
@@ -124,7 +127,7 @@ section img#temple {
     justify-content: flex-start;
 }
 
-.typewriter p::after{
+.typewriter p::after {
     content: "";
     position: absolute;
     display: block;
@@ -132,7 +135,7 @@ section img#temple {
     right: 0;
     height: 100%;
     width: 3px;
-    background-color: #dadada;
+    background-color: #ffffff;
     animation: cursor 1s infinite;
 
 }
@@ -147,14 +150,18 @@ section img#temple {
     }
 }
 
-@keyframes cursor{
-    0%{
+@keyframes cursor {
+    0% {
         opacity: 1;
     }
-    50%{
+
+    50% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
+
+/* TEXTE TITRE ANIMATION FIN */
