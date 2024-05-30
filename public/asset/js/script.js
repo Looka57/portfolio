@@ -13,3 +13,52 @@ window.addEventListener('scroll', function () {
     // btn.style.top = value * 1  + 'px';
     // header.style.top = value * 0.5  + 'px';
 })
+
+// background Animation debut
+const groupes = document.querySelector('.groupes');
+for (let i = 1; i < 20; i++) {
+    const containerId = `iconContainer${i}`; // Utilisation des backticks
+    const container = document.createElement('div');
+    container.className = 'iconContainer';
+    container.id = containerId;
+    groupes.appendChild(container);
+    addIcons(containerId);
+}
+function addIcons(containerId){
+    const iconContainer = document.getElementById(containerId);
+    const uniCode = [
+        '\uf011',
+        '\uf012',
+        '\uf003',
+        '\uf004',
+        '\uf005',
+        '\uf006',
+        '\uf007',
+        '\uf008',
+        '\uf009',
+        '\uf010',
+        '\uf011',
+        '\uf012',
+        '\uf013',
+        '\uf014',
+        '\uf015',
+        '\uf016',
+        '\uf017',
+        '\uf018',
+        '\uf019',
+        '\uf220',
+        
+    ]
+
+    for (let i = 1; i < 50; i++) {
+        const icon = document.createElement('i');
+        icon.className ='icon fas';
+        icon.innerHTML = randomIcon(uniCode);
+        iconContainer.appendChild(icon);
+    }
+}
+
+function randomIcon(value) {
+    const randomIndex = Math.floor(Math.random() * value.length); // Correction de la faute de frappe ici
+    return value[randomIndex];
+}

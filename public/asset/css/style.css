@@ -163,5 +163,78 @@ section img#temple {
         opacity: 1;
     }
 }
-
 /* TEXTE TITRE ANIMATION FIN */
+
+/* ICON ANIMATION DEBUT */
+.box .groupes{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow: hidden;
+    height: 65vh;
+    }
+    
+    .iconContainer{
+        
+        display: flex;
+        gap: 0.5em;
+        font-size: 4em;
+        animation: animate 80s linear infinite;
+    }
+    
+    @keyframes animate {
+    
+        0%,
+        100% {
+            transform: translateX(-100vw);
+        }
+        50%{
+            transform: translateX(0vw);
+        }
+    
+    }
+    
+    .iconContainer:nth-child(even){
+        animation: animate2 80s linear infinite;
+    }
+    
+    @keyframes animate2 {
+    
+        0%,
+        100% {
+            transform: translateX(0vw);
+        }
+        50%{
+            transform: translateX(-100vw);
+        }
+    
+    }
+    
+    
+    .iconContainer i{
+        cursor: default;
+        user-select: none;
+        transition: 2s;
+        color: transparent;
+        opacity: .35;
+        -webkit-text-stroke: 2px rgb(157, 49, 126) ;
+    }
+    
+    .iconContainer i:hover{
+        transition: 0s;
+        color:rgb(247, 138, 217, .7);
+        -webkit-text-stroke: 1px transparent ;
+        opacity: 1;
+        text-shadow: 0 0 120 rgb(248, 114, 209, 1);
+    
+    }
+    
+    .img{
+        position: relative;
+        z-index: 1;
+    }
+    /* SECTION PRESENTATION FIN */
+    
+    
+    
+    
