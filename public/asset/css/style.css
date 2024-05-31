@@ -250,10 +250,49 @@ section img#temple {
     }
 /* ICON ANIMATION FIN */
 
+.section_top{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url(../img/Amandine_DSC5317.jpg);
+    background-size: cover;
+    animation: change 3s infinite ease-in-out;
+    /* mix-blend-mode:darken; */
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    /* transform: translate(-50%, -50%); */
+    font-family: "Kode Mono", monospace;
+}
+
+@keyframes change {
+    0%{
+        background: url(../img/Amandine_DSC5317\ -\ Copie-pixelicious\ \(2\).png);
+        background-size: cover;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .img_presentation{
     position: relative;
-    mix-blend-mode:darken;
 }
   
-    
-    
