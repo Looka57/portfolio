@@ -180,7 +180,6 @@ section img#temple {
     left: 35%;
     transform: translateY(100px);
 }
-
 /* BTN FIN */
 
 /* ICON ANIMATION DEBUT */
@@ -189,7 +188,7 @@ section img#temple {
     flex-direction: column;
     gap: 1em;
     overflow: hidden;
-    height: 65vh;
+    height: 110vh;
     }
     
     .iconContainer{
@@ -228,7 +227,6 @@ section img#temple {
     
     }
     
-    
     .iconContainer i{
         cursor: default;
         user-select: none;
@@ -246,17 +244,16 @@ section img#temple {
         text-shadow: 0 0 120 rgb(248, 114, 209, 1);
     
     }
-    
     .img{
         position: relative;
         z-index: 1;
     }
-    /* SECTION PRESENTATION FIN */
-    
-    .bob{
-        height: 200px;
-        width: 100%;
-        background-color:pink;
-    }
+/* ICON ANIMATION FIN */
+
+.img_presentation{
+    position: relative;
+    mix-blend-mode:darken;
+}
+  
     
     
