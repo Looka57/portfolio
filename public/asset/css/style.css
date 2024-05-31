@@ -250,6 +250,8 @@ section img#temple {
     }
 /* ICON ANIMATION FIN */
 
+/* IMAGE DE PRESENTATION ANIMATION DEBUT */
+
 .section_top{
     position: relative;
     width: 100%;
@@ -257,6 +259,7 @@ section img#temple {
     overflow: hidden;
     background: url(../img/Amandine_DSC5317.jpg);
     background-size: cover;
+    background-attachment: fixed;
     animation: change 3s infinite ease-in-out;
     /* mix-blend-mode:darken; */
 }
@@ -274,11 +277,27 @@ section img#temple {
     0%{
         background: url(../img/Amandine_DSC5317\ -\ Copie-pixelicious\ \(2\).png);
         background-size: cover;
+        background-attachment: fixed;
     }
 }
 
+/* IMAGE DE PRESENTATION ANIMATION FIN */
 
 
+
+
+.intermediaire{
+    background-color: #dbe7ff;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.intermediaire2{
+    background-color: #2d53a0;
+    height: 500px;
+    width: 100%;
+}
 
 
 
