@@ -164,6 +164,7 @@ section img#temple {
         opacity: 1;
     }
 }
+
 /* TEXTE TITRE ANIMATION FIN */
 
 /* BTN */
@@ -180,91 +181,90 @@ section img#temple {
     left: 35%;
     transform: translateY(100px);
 }
+
 /* BTN FIN */
 
 /* ICON ANIMATION DEBUT */
-.box .groupes{
+.box .groupes {
     display: flex;
     flex-direction: column;
     gap: 1em;
     overflow: hidden;
     height: 110vh;
+}
+
+.iconContainer {
+    display: flex;
+    gap: 0.5em;
+    font-size: 4em;
+    animation: animate 80s linear infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        transform: translateX(-100vw);
     }
-    
-    .iconContainer{
-        
-        display: flex;
-        gap: 0.5em;
-        font-size: 4em;
-        animation: animate 80s linear infinite;
+    50% {
+        transform: translateX(0vw);
     }
-    
-    @keyframes animate {
-    
-        0%,
-        100% {
-            transform: translateX(-100vw);
-        }
-        50%{
-            transform: translateX(0vw);
-        }
-    
+
+}
+
+.iconContainer:nth-child(even) {
+    animation: animate2 80s linear infinite;
+}
+
+@keyframes animate2 {
+
+    0%,
+    100% {
+        transform: translateX(0vw);
     }
-    
-    .iconContainer:nth-child(even){
-        animation: animate2 80s linear infinite;
+
+    50% {
+        transform: translateX(-100vw);
     }
-    
-    @keyframes animate2 {
-    
-        0%,
-        100% {
-            transform: translateX(0vw);
-        }
-        50%{
-            transform: translateX(-100vw);
-        }
-    
-    }
-    
-    .iconContainer i{
-        cursor: default;
-        user-select: none;
-        transition: 2s;
-        color: transparent;
-        opacity: .35;
-        -webkit-text-stroke: 2px rgb(157, 49, 126) ;
-    }
-    
-    .iconContainer i:hover{
-        transition: 0s;
-        color:rgb(247, 138, 217, .7);
-        -webkit-text-stroke: 1px transparent ;
-        opacity: 1;
-        text-shadow: 0 0 120 rgb(248, 114, 209, 1);
-    
-    }
-    .img{
-        position: relative;
-        z-index: 1;
-    }
+
+}
+
+.iconContainer i {
+    cursor: default;
+    user-select: none;
+    transition: 2s;
+    color: transparent;
+    opacity: .35;
+    -webkit-text-stroke: 2px rgb(157, 49, 126);
+}
+
+.iconContainer i:hover {
+    transition: 0s;
+    color: rgb(247, 138, 217, .7);
+    -webkit-text-stroke: 1px transparent;
+    opacity: 1;
+    text-shadow: 0 0 120 rgb(248, 114, 209, 1);
+}
+
+.img {
+    position: relative;
+    z-index: 1;
+}
 /* ICON ANIMATION FIN */
 
 /* IMAGE DE PRESENTATION ANIMATION DEBUT */
-
-.section_top{
+.section_top {
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
     background: url(../img/Amandine_DSC5317.jpg);
     background-size: cover;
-    background-attachment: fixed;
     animation: change 3s infinite ease-in-out;
-    /* mix-blend-mode:darken; */
+    mix-blend-mode: darken;
 }
 
-.content{
+.content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -274,44 +274,19 @@ section img#temple {
 }
 
 @keyframes change {
-    0%{
+    0% {
         background: url(../img/Amandine_DSC5317\ -\ Copie-pixelicious\ \(2\).png);
         background-size: cover;
-        background-attachment: fixed;
     }
 }
 
 /* IMAGE DE PRESENTATION ANIMATION FIN */
 
 
-
-
-.intermediaire{
-    background-color: #dbe7ff;
-    height: 100vh;
+.Parralax1{
+    background: url(../img/beautiful-clouds-digital-art.jpg);
+    height: 600px;
     width: 100%;
+    background-position: center;
+    background-size: cover;
 }
-
-
-.intermediaire2{
-    background-color: #2d53a0;
-    height: 500px;
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.img_presentation{
-    position: relative;
-}
-  
