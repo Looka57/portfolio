@@ -184,6 +184,12 @@ section img#temple {
 
 /* BTN FIN */
 
+/* SECTION PRESENTATION DEBUT  */
+.section_presentation{
+    margin-top: 100px;
+  
+}
+
 /* ICON ANIMATION DEBUT */
 .box .groupes {
     display: flex;
@@ -284,9 +290,9 @@ section img#temple {
 
 
 .Parralax1{
-    background: url(../img/beautiful-clouds-digital-art.jpg);
+    background: url(../img/8-bit-graphics-pixels-scene-with-person-sunset.jpg);
     height: 600px;
     width: 100%;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
