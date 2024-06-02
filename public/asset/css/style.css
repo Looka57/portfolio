@@ -91,12 +91,12 @@ header ul li a.active {
 
 .paralax img#muretR  {
     z-index: 5;
-    top: 150px;
+    top: 140px;
 }
 
 .paralax img#muretL{
     z-index: 5;
-    top: 130px;
+    top: 120px;
 }
 /* PARRALAX FIN */
 
@@ -182,39 +182,93 @@ header ul li a.active {
     left: 35%;
     transform: translateY(100px);
 }
-
 /* BTN FIN */
 
 /* SECTION PRESENTATION DEBUT  */
-
 section{
     min-height: 100vh;
 }
 
+/* POSITIONNEMENT IMAGE DEBUT */
 .about{
     position: relative;
     background-color: #1d002c;
-}
-
-.about p{
-    color: #ffffff;
 }
 
 .about img{
     width: 100%;
     position: absolute;
     object-fit: cover;
-    z-index: 1000;
+    z-index: 10;
     top: 0;
     pointer-events: none;
 }
 
+.about img.about_waterfall{
+    position: absolute;
+    top: -95px;
+}
 
-/* .section_presentation{
- position: relative;
- top: 50%;
-} */
+.about .info_box{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    z-index: 13;
+    width: 50%;
+    margin: 20px;
+    background-color: #1d002c;
+}
+.about .info_box h2{
+    color:white ;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
 
+.about .info_box p{
+    color: white;
+    margin: 8px 0px 24px 0px;
+}
+/* POSITIONNEMENT IMAGE DEBUT */
+/* BTN PRESENTATION DEBUT */
+.btn_presentation{
+    position: relative;
+    bottom: 60px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background-color: white;
+    color: #131416;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+}
+
+.btn_presentation:hover{
+    box-shadow: 0 0 16px;
+    background-color: #1d002c;
+    color: rgb(248, 114, 209, 1);
+}
+/* BTN PRESENTATION FIN */
+/* SECTION PRESENTATION FIN  */
+
+/* SECTION PROJET DEBUT */
+.product{
+    background-color: #121137;
+    width: 100%;
+}
+
+.bob{
+    justify-content: center;
+}
+.boxy{
+    background-color: #dd57d2;
+    border:1px solid #ffffff;
+    height: 500px;
+    width: 600px;
+
+}
+/* SECTION PROJET FIN */
 
 
 
