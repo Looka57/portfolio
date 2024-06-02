@@ -209,6 +209,17 @@ section{
     top: -95px;
 }
 
+.about img.lune{
+    mix-blend-mode: screen;
+}
+
+.about img.shinobi{
+
+    width: 60%;
+
+ 
+}
+
 .about .info_box{
     position: absolute;
     top: 0%;
@@ -262,7 +273,7 @@ section{
     justify-content: center;
 }
 .boxy{
-    background-color: #dd57d2;
+    background-color: #e6e3e6;
     border:1px solid #ffffff;
     height: 500px;
     width: 600px;
