@@ -274,11 +274,13 @@ section{
 
 /* SECTION PROJET DEBUT */
 .product{
+margin-top: 130px;
+ 
     background-color: #121137;
     width: 100%;
 }
 
-.bob{
+.travaux{
     justify-content: center;
 }
 .boxy{
