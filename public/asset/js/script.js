@@ -4,7 +4,7 @@ let titre = document.querySelector(".titre");
 let btn = document.querySelector(".btn");
 let temple = document.querySelector("#temple");
 let lune = document.querySelector("#lune");
-// let header = document.querySelector("header");
+let ninja = document.querySelector('#ninja');
 
 window.addEventListener('scroll', function () {
     let value = window.scrollY;
@@ -13,6 +13,7 @@ window.addEventListener('scroll', function () {
     titre.style.transform = 'translateX(' + value * 2 + 'px)';
     btn.style.top = value * 1  + 'px';
     lune.style.top = value * .3 + 'px'; 
+    ninja.style.left = value * .6 + 'px';
 })
 
 // background Animation debut
