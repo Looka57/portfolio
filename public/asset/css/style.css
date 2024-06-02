@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 
 /* BARNAV DEBUT */
 
@@ -214,10 +218,12 @@ section{
 }
 
 .about img.shinobi{
-
     width: 60%;
+}
 
- 
+.about img.ninja{
+    position: absolute;
+
 }
 
 .about .info_box{
@@ -233,12 +239,15 @@ section{
     color:white ;
     font-size: 2.5rem;
     font-weight: 600;
+    font-family: "Kode Mono", monospace;
 }
 
 .about .info_box p{
     color: white;
     margin: 8px 0px 24px 0px;
 }
+
+
 /* POSITIONNEMENT IMAGE DEBUT */
 /* BTN PRESENTATION DEBUT */
 .btn_presentation{
@@ -418,10 +427,10 @@ section{
 /* IMAGE DE PRESENTATION ANIMATION FIN */
 
 
-.Parralax1{
+/* .Parralax1{
     background: url(../img/8-bit-graphics-pixels-scene-with-person-sunset.jpg);
     height: 600px;
     width: 100%;
     background-position: top;
     background-size: cover;
-}
+} */
