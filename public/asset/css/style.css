@@ -71,7 +71,7 @@ header ul li a.active {
     object-fit: cover;
 }
 
-section img {
+.paralax img {
     position: absolute;
     top: 0;
     left: 0;
@@ -81,7 +81,7 @@ section img {
     pointer-events: none;
 }
 
-section img#nuage {
+.paralax img#nuage {
     mix-blend-mode: hard-light;
     /* définit la façon dont le contenu d'un élément doit se mélanger avec le contenu de l'élément parent et avec son arrière-plan. */
     width: 25%;
@@ -89,12 +89,12 @@ section img#nuage {
     left: 15%;
 }
 
-section img#muretR  {
+.paralax img#muretR  {
     z-index: 5;
     top: 150px;
 }
 
-section img#muretL{
+.paralax img#muretL{
     z-index: 5;
     top: 130px;
 }
@@ -186,11 +186,73 @@ section img#muretL{
 /* BTN FIN */
 
 /* SECTION PRESENTATION DEBUT  */
-.section_presentation{
+
+section{
+    min-height: 100vh;
+}
+
+.about{
+    position: relative;
+    background-color: #1d002c;
+}
+
+.about p{
+    color: #ffffff;
+}
+
+.about img{
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 1000;
+    top: 0;
+    pointer-events: none;
+}
+
+
+/* .section_presentation{
  position: relative;
  top: 50%;
-  
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ICON ANIMATION DEBUT */
 .box .groupes {
