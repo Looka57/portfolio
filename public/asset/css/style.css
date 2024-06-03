@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -93,15 +93,16 @@ header ul li a.active {
     left: 15%;
 }
 
-.paralax img#muretR  {
+.paralax img#muretR {
     z-index: 5;
     top: 140px;
 }
 
-.paralax img#muretL{
+.paralax img#muretL {
     z-index: 5;
     top: 120px;
 }
+
 /* PARRALAX FIN */
 
 /* TEXTE TITRE ANIMATION DEBUT */
@@ -186,20 +187,21 @@ header ul li a.active {
     left: 35%;
     transform: translateY(100px);
 }
+
 /* BTN FIN */
 
 /* SECTION PRESENTATION DEBUT  */
-section{
+section {
     min-height: 100vh;
 }
 
 /* POSITIONNEMENT IMAGE DEBUT */
-.about{
+.about {
     position: relative;
     background-color: #1d002c;
 }
 
-.about img{
+.about img {
     width: 100%;
     position: absolute;
     object-fit: cover;
@@ -208,25 +210,25 @@ section{
     pointer-events: none;
 }
 
-.about img.about_waterfall{
+.about img.about_waterfall {
     position: absolute;
     top: -95px;
 }
 
-.about img.lune{
+.about img.lune {
     mix-blend-mode: screen;
 }
 
-.about img.shinobi{
+.about img.shinobi {
     width: 60%;
 }
 
-.about img.ninja{
+.about img.ninja {
     position: absolute;
 
 }
 
-.about .info_box{
+.about .info_box {
     position: absolute;
     top: 0%;
     left: 10%;
@@ -235,14 +237,16 @@ section{
     margin: 20px;
     background-color: #1d002c;
 }
-.about .info_box h2{
-    color:white ;
+
+.about .info_box h2,
+.skills h2 {
+    color: white;
     font-size: 2.5rem;
     font-weight: 600;
     font-family: "Kode Mono", monospace;
 }
 
-.about .info_box p{
+.about .info_box p {
     color: white;
     margin: 8px 0px 24px 0px;
 }
@@ -250,7 +254,7 @@ section{
 
 /* POSITIONNEMENT IMAGE DEBUT */
 /* BTN PRESENTATION DEBUT */
-.btn_presentation{
+.btn_presentation {
     position: relative;
     bottom: 60px;
     text-decoration: none;
@@ -264,34 +268,47 @@ section{
     transform: translateY(100px);
 }
 
-.btn_presentation:hover{
+.btn_presentation:hover {
     box-shadow: 0 0 16px;
     background-color: #1d002c;
     color: rgb(248, 114, 209, 1);
 }
+
 /* BTN PRESENTATION FIN */
 /* SECTION PRESENTATION FIN  */
 
 /* SECTION PROJET DEBUT */
-.product{
-margin-top: 130px;
- 
+.product {
     background-color: #121137;
     width: 100%;
 }
 
-.travaux{
+.travaux {
     justify-content: center;
 }
-.boxy{
+
+.boxy {
     background-color: #e6e3e6;
-    border:1px solid #ffffff;
+    border: 1px solid #ffffff;
     height: 500px;
     width: 600px;
 
 }
+
 /* SECTION PROJET FIN */
 
+
+.skills {
+    background-color: #121137;
+    width: 100%;
+    position: relative;
+    top: 132px;
+}
+
+.skill{
+    width: 100%;
+    text-align: center;
+}
 
 
 
@@ -352,6 +369,7 @@ margin-top: 130px;
     100% {
         transform: translateX(-100vw);
     }
+
     50% {
         transform: translateX(0vw);
     }
@@ -396,6 +414,7 @@ margin-top: 130px;
     position: relative;
     z-index: 1;
 }
+
 /* ICON ANIMATION FIN */
 
 /* IMAGE DE PRESENTATION ANIMATION DEBUT */
