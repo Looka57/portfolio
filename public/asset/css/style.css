@@ -561,15 +561,18 @@ header ul li a.active {
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    place-items: center;
     margin: inline 1.5em;
     padding-block: 5rem;
 }
 
 .card_container {
-    display: grid;
-    row-gap: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+
 }
 
 .card_article {
