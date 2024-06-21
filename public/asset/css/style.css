@@ -559,32 +559,58 @@ header ul li a.active {
     --h2-font-size: 1.25rem;
     --small-font-size: .813rem;
 }
-.product h2{
+
+.product h2 {
 
     font-size: 2.5rem;
     font-weight: 600;
     font-family: "Kode Mono", monospace;
 }
 
-.product h3{
+.product h3 {
     font-size: var(--h2-font-size);
     font-weight: 700;
 }
 
-.product{
-    background-image: url(../img/beautiful-clouds-digital-art.jpg);
-    background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+
+
+.sticky_section {
+    position: sticky;
+    top: 0;
+    
+}
+
+.sticky_section__h2 {
+    font-size: 100px;
+}
+
+.sticky_section--1 {
+
+    margin-top: 130px;
+}
+
+.sticky_section--2 {
+    background-color: #121137;
+      background-image: url(../img/beautiful-clouds-digital-art.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+
+.sticky_section--3 {
+    background-color: #38374c;
+}
+.content_section{
+    position: relative;
 
 }
 
-.bo{
-   position: absolute;
+.content_section--2{
+    background-color: #9E9E9E;
+}
 
-   width: 100%;
-   height: 500px;
-   background-color: rebeccapurple;
+.content_section--1{
+    background-color: gold;
 }
 
 
@@ -718,3 +744,12 @@ header ul li a.active {
 
 /* CARDS PROJET FIN */
 
+
+footer{
+    height: 20vh;
+
+}
+
+footer p{
+    color: #FFF;
+}
