@@ -241,7 +241,8 @@ header ul li a.active {
 }
 
 .about .info_box h2,
-.skills h2 {
+.skills h2,
+.content_section__h2 {
     color: white;
     font-size: 2.5rem;
     font-weight: 600;
@@ -572,48 +573,6 @@ header ul li a.active {
     font-weight: 700;
 }
 
-
-
-.sticky_section {
-    position: sticky;
-    top: 0;
-    
-}
-
-.sticky_section__h2 {
-    font-size: 100px;
-}
-
-.sticky_section--1 {
-
-    margin-top: 130px;
-}
-
-.sticky_section--2 {
-    background-color: #121137;
-      background-image: url(../img/beautiful-clouds-digital-art.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-}
-
-.sticky_section--3 {
-    background-color: #38374c;
-}
-.content_section{
-    position: relative;
-
-}
-
-.content_section--2{
-    background-color: #9E9E9E;
-}
-
-.content_section--1{
-    background-color: gold;
-}
-
-
 .container {
     display: grid;
     place-items: center;
@@ -738,18 +697,77 @@ header ul li a.active {
         overflow: hidden;
     }
 }
-
-
-
-
 /* CARDS PROJET FIN */
 
 
-footer{
+/* SECTION SEPARATEUR DEBUT */
+
+.sticky_section {
+    position: sticky;
+    top: 0;
+}
+
+.sticky_section__h2 {
+    margin-top: ;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Kode Mono", monospace;
+}
+
+
+.sticky_section--1 {
+    margin-top: 130px;
+}
+
+.sticky_section--2 {
+    background-color: #121137;
+    background-image: url(../img/hill-right-1.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sticky_section--3 {
+    background-color: #38374c;
+}
+
+.content_section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content_section--2 {
+ width: 70%;
+ margin: auto;
+}
+
+
+
+
+/* SECTION SEPARATEUR FIN */
+
+/* SECTION CONTACT DEBUT */
+
+/* FORMULAIRE */
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 150px;
+
+    
+}
+
+/* SECTION CONTACT FIN */
+
+footer {
     height: 20vh;
 
 }
 
-footer p{
+footer p {
     color: #FFF;
 }
