@@ -280,24 +280,7 @@ header ul li a.active {
 /* BTN PRESENTATION FIN */
 /* SECTION PRESENTATION FIN  */
 
-/* SECTION PROJET DEBUT */
-.product {
-    /* background-color: #121137; */
-    width: 100%;
-    position: relative;
-    top: 132px;
-}
-
-.travaux {
-    justify-content: center;
-}
-
-
-
-/* SECTION PROJET FIN */
-
-
-
+/* SECTION COMPETENCES DEBUT */
 
 .skills {
     background-color: #121137;
@@ -420,24 +403,7 @@ header ul li a.active {
     /* Resetting the delay */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* SECTION COMPETENCES FIN */
 
 
 
@@ -544,6 +510,8 @@ header ul li a.active {
 
 /* IMAGE DE PRESENTATION ANIMATION FIN */
 
+
+
 /* CARDS PROJET DEBUT */
 /*========== Colors ==========*/
 /*Color mode HSL(hue, saturation, lightness)*/
@@ -591,6 +559,8 @@ header ul li a.active {
 .card_article {
     position: relative;
     overflow: hidden;
+
+
 }
 
 .card_img {
@@ -600,7 +570,7 @@ header ul li a.active {
 
 .card_data {
     width: 280px;
-    background-color: var(--container-color);
+    background-color: #ffffff;
     padding: 1.5rem 2rem;
     box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
     border-radius: 1rem;
@@ -611,6 +581,7 @@ header ul li a.active {
     margin-inline: auto;
     opacity: 0;
     transition: opacity 1s 1s;
+
 }
 
 .card_desc {
@@ -697,6 +668,7 @@ header ul li a.active {
         overflow: hidden;
     }
 }
+
 /* CARDS PROJET FIN */
 
 
@@ -708,13 +680,18 @@ header ul li a.active {
 }
 
 .sticky_section__h2 {
-    margin-top: ;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 600;
     font-family: "Kode Mono", monospace;
 }
 
+.product {
+    background-image: url(../img/grass.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 .sticky_section--1 {
     margin-top: 130px;
@@ -722,25 +699,24 @@ header ul li a.active {
 
 .sticky_section--2 {
     background-color: #121137;
-    background-image: url(../img/hill-right-1.png); 
+    background-image: url(../img/water.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.sticky_section--3 {
-    background-color: #38374c;
+.sticky_section__h2 {
+    color: #FFF;
 }
 
 .content_section {
     position: relative;
     display: flex;
     justify-content: center;
-
 }
 
 .content_section--2 {
- width: 70%;
- margin: auto;
+    width: 70%;
+    margin: auto;
 }
 
 
@@ -752,22 +728,14 @@ header ul li a.active {
 
 /* FORMULAIRE */
 
-form{
+form {
     display: flex;
     flex-direction: column;
     width: 60%;
     margin-top: 150px;
 
-    
+
 }
 
 /* SECTION CONTACT FIN */
 
-footer {
-    height: 20vh;
-
-}
-
-footer p {
-    color: #FFF;
-}
