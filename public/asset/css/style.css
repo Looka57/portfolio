@@ -570,7 +570,7 @@ header ul li a.active {
 
 .card_data {
     width: 280px;
-    background-color: #ffffff;
+    background-color: rgb(254, 200, 238);
     padding: 1.5rem 2rem;
     box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
     border-radius: 1rem;
@@ -585,6 +585,7 @@ header ul li a.active {
 }
 
 .card_desc {
+
     display: block;
     margin-bottom: .25rem;
     font-size: var(--small-font-size);
@@ -716,20 +717,21 @@ header ul li a.active {
     height: 50%;
 }
 
-.bob{
+.bob {
     width: 100%;
 }
 
 
-.form_container{
+.form_container {
     display: flex;
     justify-content: center;
     height: 74vh;
 }
-.form_container_img{
+
+.form_container_img {
     display: flex;
     justify-content: center;
-   height: 88vh;
+    height: 88vh;
 }
 
 
@@ -744,18 +746,23 @@ form {
     flex-direction: column;
     width: 60%;
     margin-top: 150px;
-    border: 5px solid pink;
+    border: 5px solid rgb(248, 114, 209, 1);
+    box-shadow: 0 0 5px rgb(248, 114, 209, 1);
     border-radius: 25px;
     padding: 20px;
 }
 
-form label{
+form label {
     color: #FFF;
     padding: 6px;
 }
 
- input:focus{
-    color: rgb(246, 255, 0) !important;
-}
-/* SECTION CONTACT FIN */
+form input.form-control:focus,
+form textarea.form-control:focus {
 
+    outline: none;
+    border: 1px solid rgb(248, 114, 209, 1);
+    box-shadow: 0 0 10px rgb(248, 114, 209, 1);
+}
+
+/* SECTION CONTACT FIN */
