@@ -559,6 +559,9 @@ header ul li a.active {
 .card_article {
     position: relative;
     overflow: hidden;
+    border: 2px solid #121137;
+    border-radius: 8%;
+    box-shadow: 3px 5px 15px #121137;
 
 
 }
@@ -570,7 +573,8 @@ header ul li a.active {
 
 .card_data {
     width: 280px;
-    background-color: rgb(254, 200, 238);
+    background-color:#121137;
+    color: white;
     padding: 1.5rem 2rem;
     box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
     border-radius: 1rem;
@@ -589,21 +593,23 @@ header ul li a.active {
     display: block;
     margin-bottom: .25rem;
     font-size: var(--small-font-size);
+    
 }
 
 .card_title {
     font-size: var(--h2-font-size);
     font-weight: 700;
-    color: var(--title-color);
     margin-bottom: .75rem;
     font-family: "Kode Mono", monospace;
+    color: white;
 }
 
 .card_btn {
     text-decoration: none;
     font-size: var(--small-font-size);
     font-weight: 500;
-    color: var(--title-color);
+    color: white;
+
 }
 
 .card_btn:hover {
