@@ -26,7 +26,7 @@ header {
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     z-index: 100;
 }
@@ -122,7 +122,6 @@ header ul li a.active {
 .typewriter_container {
     position: relative;
     z-index: 2;
-  
     bottom: 10%;
 }
 
@@ -517,10 +516,10 @@ header ul li a.active {
     overflow: hidden;
     background: url(../img/Amandine_DSC5317.jpg);
     background-size: cover;
-    animation: change 3s ease-in-out;
+    animation: change 8s ease infinite;
     border-radius: 25px;
     mix-blend-mode: screen;
-      opacity: 0.9;
+    opacity: 0.9;
 
 }
 
