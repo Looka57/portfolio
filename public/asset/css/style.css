@@ -311,6 +311,7 @@ header ul li a.active {
     overflow: hidden;
 }
 
+
 .skill-card:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -484,7 +485,7 @@ header ul li a.active {
 .alfred{
     background-color: #12113736;
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 25px;
     width: 40%;
     border: 2px solid #ffffff;
@@ -493,6 +494,17 @@ header ul li a.active {
     padding: 10px;
     border-radius: 25px;
 }
+
+.box a {
+   display: flex;
+    justify-content: center;
+ position: relative;
+ bottom: 15%;
+}
+
+
+
+
 
 /* ICON ANIMATION FIN */
 
@@ -519,7 +531,7 @@ header ul li a.active {
     text-transform: uppercase;
     /* transform: translate(-50%, -50%); */
     font-family: "Kode Mono", monospace;
-    color: ;
+   
 }
 
 @keyframes change {
