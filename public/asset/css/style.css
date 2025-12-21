@@ -194,7 +194,7 @@ header ul li a.active {
     color: #131416;
     font-size: 1.5em;
     z-index: 9;
-    left: 35%;
+    left: 55%;
     transform: translateY(100px);
 }
 
@@ -294,6 +294,8 @@ header ul li a.active {
     width: 100%;
     position: relative;
     top: 132px;
+    margin-top: 50px;
+
 }
 
 .skill-card {
@@ -481,7 +483,7 @@ header ul li a.active {
     z-index: 1;
 }
 
-.alfred{
+.description{
     background-color: #12113736;
     position: absolute;
     top: 10%;
@@ -525,7 +527,7 @@ header ul li a.active {
 
 .content {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     text-transform: uppercase;
     /* transform: translate(-50%, -50%); */
@@ -738,9 +740,7 @@ header ul li a.active {
 
 .sticky_section--2 {
     background-color: #121137;
-    background-image: url(../img/water.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+
 }
 
 .sticky_section__h2 {
@@ -759,62 +759,22 @@ header ul li a.active {
     width: 100%;
 }
 
-
-.form_container {
-    display: flex;
-    justify-content: center;
-    height: 74vh;
+.sticky_section--3 {
+    background-color: #121137;
+    background-image: url(../img/water.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
-.form_container_img {
-    display: flex;
-    justify-content: center;
-    height: 88vh;
-}
-
-.form_container_icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 800;
-}
-
-.form_container_icons img {
-    margin: 50px;
-}
-
-.form_container_icons a:hover {
-    filter: contrast(5);
-}
-
-.tel{
-    cursor: pointer;
-}
-
-
-.form_container_icons:hover .num_tel {
-    display: block;
-}
-
-.num_tel {
-    display: none;
-}
 
 
 /* SECTION SEPARATEUR FIN */
 
-/* SECTION CONTACT DEBUT */
-
-
-/* SECTION CONTACT FIN */
 
 /* FOOTER DEBUT */
 
 .footer {
-    background-color: #121137;
     width: 100%;
     height: 80px;
     position: relative;
@@ -938,6 +898,7 @@ header ul li a.active {
     .skills {
         position: initial;
         padding: 20px;
+      
     }
 
     .sticky_section--1 {
@@ -958,3 +919,6 @@ header ul li a.active {
    
 
 }
+
+
+
