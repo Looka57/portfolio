@@ -237,42 +237,56 @@
     <!-- SECTION SEPARATEUR DEBUT -->
     <!-- <img src="asset/img/hill-left-1.png" alt="" id="muretL"> -->
     <section class="sticky_section sticky_section--2">
-        <h2 id="presentation" class="sticky_section__h2">Présentation</h2>
-
+        <h2 id="presentation" class="sticky_section__h2 p-4">Présentation</h2>
         <section class="row g-0 text-center">
             <!-- PARCOURS -->
             <div class="box col-lg-5">
-                <div class="groupes">
-                    <p class="description">
+                <div class="groupes ">
+                    <p class="description  p-3">
                         Après 15 ans d’expérience en tant que responsable de magasin, j’ai entrepris une
-                        reconversion professionnelle vers ledéveloppement informatique, animée par
+                        reconversion professionnelle vers le développement informatique, animée par
                         l’envie de relever de nouveaux défis et de donner un nouveau sens à mon parcours.
 
                         <br><br>
 
                         Cette première carrière m’a permis de développer de solides compétences en
-                        gestion d’équipe,organisation,relation client
-                        etgestion des priorités, que j’applique aujourd’hui dans mes projets techniques.
+                        gestion d’équipe, organisation, relation client et gestion des priorités,
+                        que j’applique aujourd’hui dans mes projets techniques.
 
                         <br><br>
 
                         Dans le cadre de ma reconversion, j’ai suivi une formation intensive en développement web,
-                        ponctuée par unstage clé à l’ADEM (Agence pour le Développement de l’Emploi) au
-                        Luxembourg, où j’ai travaillé sur des projets concrets en environnement institutionnel.
+                        ponctuée par un stage clé à l’ADEM au Luxembourg. Durant cette expérience, j'ai eu l'opportunité
+                        de travailler sur des projets concrets directement pour le Ministère de l'Emploi, en
+                        environnement
+                        institutionnel.
 
                         <br><br>
 
-                        J’ai ensuite obtenu letitre Concepteur Développeur d’Applications (CDA),
-                        complété par unstage chez Viessmann, me permettant de renforcer mes compétences
-                        endéveloppement applicatif,programmation orientée objet et
-                        travail en environnement structuré.
+                        J’ai ensuite obtenu le titre Concepteur Développeur d’Applications (CDA),
+                        complété par un stage chez Viessmann, me permettant de renforcer mes compétences
+                        en développement applicatif, programmation orientée objet et travail en environnement structuré.
+
+                        <br><br>
+
+                        Aujourd'hui, j'aspire à intégrer une équipe dynamique où je pourrai mettre à profit ma
+                        double culture managériale et technique. Mon objectif est de contribuer au
+                        développement de solutions innovantes tout en continuant d'évoluer au sein de l'écosystème
+                        Full-stack.
                     </p>
                 </div>
 
-                <a id="contact" href="https://www.linkedin.com/in/amandine-napolitano-363231232/" target="_blank">
-                    <img width="80" height="80" src="https://img.icons8.com/plasticine/100/linkedin.png"
-                        alt="LinkedIn Amandine Napolitano" />
+                <span class="small text-light opacity-75 me-3">On en discute ?</span>
+
+                <a id="contact" href="https://www.linkedin.com/in/amandine-napolitano-363231232/" target="_blank"
+                    class="me-3">
+                    <img width="70" height="70" src="https://img.icons8.com/plasticine/100/linkedin.png"
+                        alt="LinkedIn Amandine Napolitano" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
                 </a>
+
+
+
             </div>
 
             <!-- PROFIL + COMPÉTENCES -->
@@ -415,10 +429,20 @@
                                     <span class="badge bg-primary px-3 py-2">PROMOTION 2024 – 2025</span>
                                     <p class="small fw-bold mb-0 text-light mt-1">Titre RNCP Niveau 6 (Bac +3)</p>
                                 </div>
+                                
+                                
+                                
+                            </div>
+                            <div class="cv">
+                                <a href="asset/img/pdf/new cv2026.pdf" target="_blank"
+                                    class="btn_cv btn-outline-info rounded-pill shadow-sm">
+                                    <i class="fa-solid fa-download me-2"></i>Mon CV (PDF)
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="water"></div>
             </section>
         </section>
@@ -426,7 +450,7 @@
         <!-- SECTION SEPARATEUR FIN -->
         <footer>
             <div class="footer g-0">
-              <p>&copy; <span id="year"></span> - Amandine - </p>
+                <p>&copy; <span id="year"></span> - Amandine - </p>
             </div>
         </footer>
 
@@ -446,9 +470,9 @@
         <!-- JS -->
         <script src="asset/js/script.js"></script>
         <script>
-    // Récupère l'année en cours et l'insère dans le span
-    document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+            // Récupère l'année en cours et l'insère dans le span
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
 </body>
 
 </html>
