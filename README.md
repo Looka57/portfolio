@@ -1,4 +1,4 @@
-# 👩‍💻 Mon Portfolio Professionnel
+# 👩‍💻 Mon Portfolio
 
 Bienvenue sur le dépôt de mon portfolio ! Ce projet centralise mes réalisations, mon parcours et mes compétences en tant que **Conceptrice Développeuse d'Applications**.
 
@@ -25,6 +25,9 @@ Bienvenue sur le dépôt de mon portfolio ! Ce projet centralise mes réalisatio
 - Mettre en avant mes projets et compétences  
 - Fournir un accès rapide à mes réalisations  
 - Servir de support lors de candidatures ou présentations
+Servir de support lors de candidatures ou présentations  
+- **Actuellement en recherche d’opportunités professionnelles** dans le développement web et le développement d’applications
+
 
 ---
 
@@ -42,7 +45,5 @@ Bienvenue sur le dépôt de mon portfolio ! Ce projet centralise mes réalisatio
 📫 Me contacter
 
 GitHub : Looka57
-
 Email : napoa322@gmail.com
-
 LinkedIn : Amandine Napolitano
