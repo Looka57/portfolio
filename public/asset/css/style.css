@@ -194,6 +194,7 @@ header ul li a.active {
     left: 55%;
     transform: translateY(100px);
 }
+
 .btn_cv {
     text-decoration: none;
     display: inline-block;
@@ -209,12 +210,18 @@ header ul li a.active {
 }
 
 .btn_cv:hover {
-    background-color: transparent; /* Le fond devient transparent */
-    color: #0dcaf0;               /* Le texte prend la couleur info */
-    border: 2px solid #0dcaf0;    /* L'outline couleur info apparaît */
-    transform: translateY(-3px);  /* Petit effet de levée */
-    box-shadow: 0 5px 15px rgba(13, 202, 240, 0.2); /* Lueur discrète info */
+    background-color: transparent;
+    /* Le fond devient transparent */
+    color: #0dcaf0;
+    /* Le texte prend la couleur info */
+    border: 2px solid #0dcaf0;
+    /* L'outline couleur info apparaît */
+    transform: translateY(-3px);
+    /* Petit effet de levée */
+    box-shadow: 0 5px 15px rgba(13, 202, 240, 0.2);
+    /* Lueur discrète info */
 }
+
 /* BTN FIN */
 
 /* SECTION PRESENTATION DEBUT  */
@@ -237,7 +244,8 @@ header ul li a.active {
 
 /* On ne change que ce qui est spécifique */
 .about img.about_waterfall {
-    top: -95px; /* Écrase le top: 0 précédent */
+    top: -95px;
+    /* Écrase le top: 0 précédent */
 }
 
 .about img.lune {
@@ -245,7 +253,8 @@ header ul li a.active {
 }
 
 .about img.shinobi {
-    width: 60%; /* Écrase le width: 100% */
+    width: 60%;
+    /* Écrase le width: 100% */
 }
 
 
@@ -273,6 +282,7 @@ header ul li a.active {
     color: white;
     margin: 8px 0px 24px 0px;
 }
+
 /* POSITIONNEMENT IMAGE DEBUT */
 /* BTN PRESENTATION DEBUT */
 .btn_presentation,
@@ -497,24 +507,26 @@ header ul li a.active {
 }
 
 .description {
-    background-color: rgba(18, 17, 55, 0.5); /* Plus lisible */
+    background-color: rgba(18, 17, 55, 0.5);
+    /* Plus lisible */
     border: 2px solid #ffffff;
     font-size: 15px;
     color: #ffffff;
     padding: 20px;
     border-radius: 25px;
-    width: 100%;       /* Prend toute la largeur du col-sm-12 */
-    position: relative; /* Reprend sa place dans le flux normal */
-    left: 0;           /* On annule le décalage */
+    width: 100%;
+    /* Prend toute la largeur du col-sm-12 */
+    position: relative;
+    /* Reprend sa place dans le flux normal */
+    left: 0;
+    /* On annule le décalage */
     margin-bottom: 20px;
 }
 
-
 .box a {
-   display: flex;
+    display: flex;
     justify-content: center;
- position: relative;
- bottom: 15%;
+    position: relative;
 }
 
 /* ICON ANIMATION FIN */
@@ -536,27 +548,30 @@ header ul li a.active {
     /* AJOUTS POUR PLACER LE TEXTE EN BAS */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
-    padding: 30px; 
+    justify-content: flex-start;
+    padding: 30px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; 
+    align-items: flex-end;
     width: 100%;
-    padding: 40px; /* Plus d'espace pour respirer */
+    padding: 40px;
+    /* Plus d'espace pour respirer */
     text-transform: uppercase;
     font-family: "Kode Mono", monospace;
-  
+
 }
 
 .content h1 {
-    font-size: clamp(2rem, 5vw, 3.5rem); /* Taille fluide selon l'écran */
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    /* Taille fluide selon l'écran */
     color: #FFF;
     font-weight: 800;
-    letter-spacing: -1px; /* Resserre un peu les lettres pour un look moderne */
-    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    letter-spacing: -1px;
+    /* Resserre un peu les lettres pour un look moderne */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 5px;
 }
 
@@ -566,19 +581,19 @@ header ul li a.active {
     font-weight: 500;
     margin-bottom: 20px;
     letter-spacing: 2px;
-     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
 }
 
 .intro {
-    width: 60%; 
+    width: 60%;
     font-size: 1.1rem;
-    line-height: 1.6; 
-    color:#121137;
+    line-height: 1.6;
+    color: #121137;
     font-weight: 400;
-    text-align: right; 
-    text-transform: none; 
-    
-   
+    text-align: right;
+    text-transform: none;
+
+
 }
 
 @keyframes change {
@@ -810,12 +825,11 @@ header ul li a.active {
 .sticky_section--3 {
     background-color: #121137;
     min-height: 100vh;
-    height: auto !important; 
-    padding-bottom: 20px;
+    height: auto !important;
 }
 
-.water{
-     background-image: url(../img/water.png);
+.water {
+    background-image: url(../img/water.png);
     background-size: cover;
     background-position: center bottom;
     height: 200px;
@@ -843,7 +857,8 @@ header ul li a.active {
 
 /* Carte de formation (se démarque du reste) */
 .formation-card {
-    background: #f8f9fa; /* Blanc cassé pour attirer l'oeil */
+    background: #f8f9fa;
+    /* Blanc cassé pour attirer l'oeil */
     border-left: 6px solid #121137 !important;
     margin-top: 30px;
 }
@@ -857,9 +872,10 @@ header ul li a.active {
 
 /* Correction responsive pour mobile */
 @media (max-width: 991px) {
-    .sticky_section--3 .row > div {
+    .sticky_section--3 .row>div {
         margin-bottom: 40px;
     }
+
     .border-start-custom {
         border-left: none;
     }
@@ -873,10 +889,19 @@ header ul li a.active {
 
 .footer {
     width: 100%;
-    height: 50px;
     position: relative;
     color: #FFF;
     text-align: center;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer li {
+
+    padding: 15px;
 }
 
 /* ***********RESPONSIVE MEDIA QUERY*************** */
@@ -940,32 +965,36 @@ header ul li a.active {
     .paralax img#nuage {
         display: none;
     }
+
     .paralax img#muretR {
         display: none;
     }
+
     .paralax img#muretL {
         display: none;
     }
+
     /* TEXTE TITRE ANIMATION */
 
-  .typewriter_container {
+    .typewriter_container {
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
         padding: 0 20px;
         bottom: 5%;
     }
 
     .typewriter p {
-        font-size: 28px; 
+        font-size: 28px;
         display: inline-block;
         width: 100%;
-        position: relative; 
-        white-space: normal; /* Permet le retour à la ligne */
+        position: relative;
+        white-space: normal;
+        /* Permet le retour à la ligne */
         text-align: center;
         margin-bottom: 20px;
-        
+
         /* NOUVELLE ANIMATION : on anime la hauteur pour révéler les lignes */
         overflow: hidden;
         animation: typing-mobile 2s steps(40, end);
@@ -973,8 +1002,15 @@ header ul li a.active {
 
     /* On adapte l'animation pour le mobile */
     @keyframes typing-mobile {
-        from { max-height: 0; }
-        to { max-height: 200px; } /* Ajuste selon la hauteur totale du texte */
+        from {
+            max-height: 0;
+        }
+
+        to {
+            max-height: 200px;
+        }
+
+        /* Ajuste selon la hauteur totale du texte */
     }
 
     .typewriter p::after {
@@ -990,7 +1026,7 @@ header ul li a.active {
     }
 
     .btn {
-        position: static; 
+        position: static;
         transform: none;
         margin: 10px auto;
         display: block;
@@ -999,17 +1035,17 @@ header ul li a.active {
 
     /* A PROPOS */
 
-.about img {
+    .about img {
         display: none !important;
     }
 
     /* 2. On repositionne la boîte de texte pour qu'elle soit visible */
     .about .info_box {
-        position: static;   
-        width: 100%;      
+        position: static;
+        width: 100%;
         margin: 0;
-        padding: 20px; 
-        text-align: justify; 
+        padding: 20px;
+        text-align: justify;
     }
 
     /* 3. On ajuste la section pour qu'elle s'adapte au contenu */
@@ -1018,13 +1054,13 @@ header ul li a.active {
         display: block;
     }
 
-.btn_presentation {
+    .btn_presentation {
         position: static;
         transform: none;
         width: 100%;
         text-align: center;
         margin-top: 20px;
-}
+    }
 
 
     /* COMPETENCES */
@@ -1033,7 +1069,7 @@ header ul li a.active {
         position: initial;
         padding: 20px;
         margin-top: 0px;
-      
+
     }
 
     .sticky_section--1 {
@@ -1048,62 +1084,80 @@ header ul li a.active {
 
 
 
-.container {
-    padding-block: 0;
-}
+    .container {
+        padding-block: 0;
+    }
 
 
-/* DESCRIPTION */
+    /* DESCRIPTION */
 
-.description {
+    .description {
         position: absolute;
         left: 25px;
-        width: 90%; /* Ajusté pour tenir dans le col-lg-5 */
+        width: 90%;
+        /* Ajusté pour tenir dans le col-lg-5 */
         z-index: 2;
-}
+    }
 
-.groupes{
+    /* .groupes{
     height: auto;
-}
+} */
 
-/* IMAGE DE PRESENTATION ANIMATION DEBUT */
-.section_top {
+    /* IMAGE DE PRESENTATION ANIMATION DEBUT */
+    .section_top {
         background-image: none !important;
-        background-color: #121137; 
+
         mix-blend-mode: normal !important;
         opacity: 1;
-        
-        height: auto;
-        min-height: 300px;
-        margin: 20px 0; 
-        justify-content: center; 
+
+        /* height: auto;
+        min-height: 300px; */
+        margin: 20px 0;
+        justify-content: end;
     }
 
     .content {
-        align-items: center; 
+        align-items: center;
         padding: 20px;
     }
 
     .intro {
-        width: 100%; 
+        width: 100%;
         text-align: center;
         border-right: none;
         color: white;
     }
 
     .content h1 {
-    font-size: clamp(2rem, 5vw, 3.5rem); /* Taille fluide selon l'écran */
-    color: #FFF;
-    font-weight: 800;
-    letter-spacing: -1px; /* Resserre un peu les lettres pour un look moderne */
-    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
-    margin-bottom: 5px;
+        font-size: clamp(2rem, 5vw, 3.5rem);
+        /* Taille fluide selon l'écran */
+        color: #FFF;
+        font-weight: 800;
+        letter-spacing: -1px;
+        /* Resserre un peu les lettres pour un look moderne */
+        text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+        margin-bottom: 5px;
+    }
+
+    .content h2 {
+        text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.8);
+    }
+
+
+
+    .footer {
+        color: rgb(255, 255, 255);
+        background-color: #121137;
+    }
+    .footer a {
+        color: rgb(255, 255, 255);
+    }
+
+    .water {
+        background-image: url(../img/water.png);
+        background-size: cover;
+        background-position: center bottom;
+        height: 50px;
+    }
+
 }
-
-.content h2 {
-
-     text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.8);
-}
-
-}
-
