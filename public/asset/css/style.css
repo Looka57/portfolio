@@ -5,6 +5,7 @@
     list-style: none;
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
+    /* outline: 1px solid red !important; */
 }
 
 body {
@@ -983,6 +984,8 @@ header ul li a.active {
         align-items: center;
         padding: 0 20px;
         bottom: 5%;
+        max-width: 100%;
+        overflow: hidden;
     }
 
     .typewriter p {
@@ -991,11 +994,8 @@ header ul li a.active {
         width: 100%;
         position: relative;
         white-space: normal;
-        /* Permet le retour à la ligne */
         text-align: center;
         margin-bottom: 20px;
-
-        /* NOUVELLE ANIMATION : on anime la hauteur pour révéler les lignes */
         overflow: hidden;
         animation: typing-mobile 2s steps(40, end);
     }
@@ -1010,7 +1010,6 @@ header ul li a.active {
             max-height: 200px;
         }
 
-        /* Ajuste selon la hauteur totale du texte */
     }
 
     .typewriter p::after {
@@ -1142,8 +1141,6 @@ header ul li a.active {
     .content h2 {
         text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.8);
     }
-
-
 
     .footer {
         color: rgb(255, 255, 255);
