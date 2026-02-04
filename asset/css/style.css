@@ -1107,7 +1107,7 @@ header ul li a.active {
         background-image: none !important;
         mix-blend-mode: normal !important;
         opacity: 1;
-        min-height: auto;
+        min-height: 90vh;
         margin: 20px 0;
         justify-content: end;
     }
